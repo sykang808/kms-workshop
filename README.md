@@ -51,7 +51,8 @@ yum install java -y
 
 ### 서버 접속
 
-localhost:3000으로 접속합니다.
+localhost:8080 접속합니다.
+Cloud9을 사용하는 경우 상단의 Preview버튼을 클릭합니다.
 ![main](/image/mainpage.png)
 
 ### Encryption

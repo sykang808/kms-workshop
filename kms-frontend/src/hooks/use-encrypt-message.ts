@@ -10,7 +10,7 @@ export const useEncryptMessage = (options: UseMutationOptions<unknown, unknown, 
   return useMutation('encryptMessage', async (input: EncryptMessageInput) => {
     const { keyId: keyid, message: plainmessage } = input;
     const { data } = await axios.post(
-      'http://localhost:8080/api/encryption',
+      'http://localhost:8000/api/encryption',
       {
         keyid,
         plainmessage

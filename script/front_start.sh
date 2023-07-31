@@ -1,3 +1,3 @@
 cd ./kms-frontend
 npm install
-npm start
+PORT=8080 npm start

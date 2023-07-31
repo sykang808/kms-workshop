@@ -10,7 +10,7 @@ export const useDecryptMessage = (options: UseMutationOptions<unknown, unknown, 
   return useMutation('decryptMessage', async (input: DecryptMessageInput) => {
     const { keyId: keyid, ciphering } = input;
     const { data } = await axios.post(
-      'http://localhost:8080/api/decryption',
+      'http://localhost:8000/api/decryption',
       {
         keyid,
         ciphering
